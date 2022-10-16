@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  background-color: rgb(193, 188, 188);
+}
+
 .logo {
   background-color: gray;
   text-align: center;
@@ -5,7 +10,6 @@
 
 .contenido {
   padding: 100px;
-  background-color: rgb(193, 188, 188);
 }
 
 .contenido article {
@@ -24,15 +28,13 @@
   text-align: center;
 }
 
-.contenido article h4 {
-  color: black;
-  font-size: 20px;
-  text-align: center;
+.contenido article div {
+  padding: 30px;
 }
 
-.contenido article h6 {
+.contenido article div h4 {
+  color: black;
   font-size: 15px;
-  font-style: italic;
-  text-align: left;
-  background-color: rgb(193, 188, 188);
+  text-align: center;
+  margin: 0;
 }
