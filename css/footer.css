@@ -1,0 +1,17 @@
+.footer {
+  background: #000000;
+}
+
+.footer h6 {
+  font-size: 15px;
+  font-style: italic;
+  text-align: center;
+  background-color: rgb(193, 188, 188);
+}
+
+.footer p {
+  color: #ffffff;
+  height: 20px;
+  text-align: center;
+  margin: 0 auto;
+}

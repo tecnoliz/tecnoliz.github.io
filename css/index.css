@@ -1,9 +1,6 @@
-* {
-  margin: 0px;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
+.logo {
+  background-color: gray;
+  text-align: center;
 }
 
 .contenido {
@@ -38,28 +35,4 @@ body {
   font-style: italic;
   text-align: left;
   background-color: rgb(193, 188, 188);
-}
-
-.pie {
-  background: #000000;
-}
-
-.pie h6 {
-  font-size: 15px;
-  font-style: italic;
-  text-align: center;
-  background-color: rgb(193, 188, 188);
-}
-
-.pie p {
-  color: #ffffff;
-  height: 20px;
-  line-height: 20px;
-  width: 120px;
-  margin: 0 auto;
-}
-
-.logo {
-  background-color: gray;
-  text-align: center;
 }
