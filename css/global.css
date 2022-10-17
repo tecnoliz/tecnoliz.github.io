@@ -1,3 +1,12 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@media (max-width: 991px){
+  img{
+      max-width: 100%;
+  }
+  .contenido article {
+      max-width: 100%;
+    }
+}

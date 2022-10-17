@@ -8,7 +8,13 @@
 .footer p {
   color: #ffffff;
   background: #000000;
-  height: 20px;
+  height: auto;
   text-align: center;
   margin: 0 auto;
+}
+
+@media (min-height: 20px) {
+  .footer p {
+    font-size: 20x;
+  }
 }
