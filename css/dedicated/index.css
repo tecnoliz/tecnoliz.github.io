@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   background-color: rgb(193, 188, 188);
 }
 
@@ -7,12 +9,17 @@ body {
   background-color: gray;
   text-align: center;
 }
+.logo img{
+  width: 15%;
+}
 
 .contenido {
-  padding: 100px;
+  display: flex;
+  flex-direction: column;
 }
 
 .contenido article {
+  margin-top: 10px;
   color: #000000;
   text-align: center;
   border-bottom: 1px solid #000000;
@@ -21,6 +28,7 @@ body {
 .contenido article img {
   width: 380px;
   height: 240px;
+  margin-bottom: 10px;
 }
 
 .contenido article h2 {
