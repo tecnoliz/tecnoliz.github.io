@@ -3,10 +3,10 @@ body {
 }
 
 @media (max-width: 991px){
-  img{
-      max-width: 100%;
-  }
-  .contenido article {
-      max-width: 100%;
+  .contenido article{
+      min-width: 100%;
+    }
+    .logo img{
+      width: 35%;
     }
 }
