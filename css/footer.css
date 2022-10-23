@@ -1,20 +1,39 @@
+.footer{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  align-content: center;
+}
+footer{
+  width: 100%;
+}
+
 .footer h6 {
   margin: 0px;
   font-size: 22px;
   font-style: italic;
   text-align: center;
+  padding: 5px;
 }
 
 .footer p {
   color: #ffffff;
   background: #000000;
-  height: auto;
   text-align: center;
-  margin: 0 auto;
+  margin: 0;
+  font-size: 30px;
+  width: 100%;
 }
 
-@media (min-height: 20px) {
-  .footer p {
-    font-size: 20x;
+@media (max-width: 991px){
+  .footer-container p{
+    font-size: 30px;
+  }
+  .footer h6{
+    margin: 0px;
+    font-size: 32px;
+    font-style: italic;
+    text-align: center;
   }
 }
