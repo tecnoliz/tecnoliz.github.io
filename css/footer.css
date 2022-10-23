@@ -1,6 +1,6 @@
 .footer h6 {
   margin: 0px;
-  font-size: 24px;
+  font-size: 22px;
   font-style: italic;
   text-align: center;
 }
@@ -15,6 +15,6 @@
 
 @media (min-height: 20px) {
   .footer p {
-    font-size: 18px;
+    font-size: 20x;
   }
 }
