@@ -26,15 +26,30 @@
     <!--Servicios-->
     <section class="contenido">
 
-      <article>
-        <h2>Aplicar cristal templado/hidrogel (Protector)</h2>
+      <button id="boton1" onclick="mostrar();"><article>
+          <h2>Aplicar cristal templado/hidrogel (Protector)</h2>
         <img src="media/stock-images/cristal-templado.jpg">
-      </article>
+        <div id="caja1">holaaaaa</div>
+   </article></button> <button id="boton01" onclick="ocultar();"> ocultar</button>
+   <script>
+    function mostrar(){
+    document.getElementById('caja1').style.display = 'block';
+   }
+    function ocultar(){
+    document.getElementById('caja1').style.display = 'none';
+   }
+   </script>
+   <style>
+    #caja1{
+      display: none;
+    }
+   </style>
 
-      <article>
+      <button><article>
         <h2>Instalación de sistemas operativos</h2>
         <img src="media/stock-images/instalacionsist.png">
       </article>
+    </article></button>
 
       <article>
         <h2>Activación de Office (Word, PowerPoint, etc...)</h2>
