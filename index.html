@@ -32,12 +32,15 @@
         <div id="caja1">holaaaaa</div>
    </article></button> <button id="boton01" onclick="ocultar();"> ocultar</button>
    <script>
-    function mostrar(){
-    document.getElementById('caja1').style.display = 'block';
-   }
-    function ocultar(){
-    document.getElementById('caja1').style.display = 'none';
-   }
+    function mostrar() {
+            document.getElementById("caja1").style.display = "block";
+            document.getElementById("ocultar").style.display = "inline-block";
+            document.getElementById("mostrar").style.display = "none";
+function ocultarMensaje() {
+            document.getElementById("caja1").style.display = "none";
+            document.getElementById("ocultar").style.display = "none";
+            document.getElementById("mostrar").style.display = "inline-block";
+
    </script>
    <style>
     #caja1{
