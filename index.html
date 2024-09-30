@@ -54,11 +54,24 @@ document.getElementById("boton01").style.display = "block";
     }
    </style>
 
-       <button id="boton1" onclick="mostrar();"><article>
+       <button id="boton2" onclick="mostrar();"><article>
         <h2>Instalación de sistemas operativos</h2>
         <img src="media/stock-images/instalacionsist.png">
-<div id="caja1">holaaaaa</div>
-    </article></button>
+<div id="caja2">holaaaaa</div>
+    </article></button>button id="boton02" onclick="ocultar();"> ocultar</button>
+
+function mostrar1() {
+          // Mostrar el mensaje y el botón "Ocultar"
+          document.getElementById("caja2").style.display = "block";
+  
+document.getElementById("boton02").style.display = "block";
+}
+
+        function ocultar1() {
+          // Ocultar el mensaje y mostrar el botón "Mostrar"
+          document.getElementById("boton02").style.display = "none";
+          document.getElementById("caja2").style.display = "none"; // Mostrar el botón "Mostrar"
+        }
 
        <button id="boton1" onclick="mostrar();"><article>
         <h2>Activación de Office (Word, PowerPoint, etc...)</h2>
