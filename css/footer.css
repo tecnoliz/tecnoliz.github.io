@@ -8,7 +8,6 @@
 footer{
   width: 100%;
 }
-
 .footer h6 {
   margin: 0px;
   font-size: 22px;
@@ -16,7 +15,6 @@ footer{
   text-align: center;
   padding: 5px;
 }
-
 .footer p {
   color: #ffffff;
   background: #000000;
@@ -25,7 +23,6 @@ footer{
   font-size: 30px;
   width: 100%;
 }
-
 @media (max-width: 991px){
   .footer-container p{
     font-size: 30px;
@@ -35,5 +32,6 @@ footer{
     font-size: 32px;
     font-style: italic;
     text-align: center;
+    color: #ffffff;
   }
 }
