@@ -43,16 +43,16 @@ color: rgb(51, 0, 102);
 }
 .imagen-encima {
   position: absolute; /* Superpone la imagen */
-  top: 21.5%; /* Ajusta según sea necesario para subir la imagen */
+  top: 21vh; /* Ajusta según sea necesario para subir la imagen */
   left: 50%; /* Centra horizontalmente */
-  transform: translate(-50%, -50%); /* Ajusta la imagen para centrarla */
-  width: 100px; /* Ajusta el tamaño de la imagen */
-  height: auto; /* Mantiene la proporción */
-  z-index: 10; /* Asegura que esté encima */
+  transform: translate(-50%, -50%); /* Centrar la imagen correctamente */
+  width: 26vw; /* Usa unidades relativas para el ancho */
+  max-width: 260px; /* Tamaño máximo de la imagen */
+  height: auto; /* Mantiene la proporción de la imagen */
+  z-index: 10; /* Z-index para estar encima */
 }
 .imagenrecuadro{
-  border: 5px solid rgb(51, 0, 102); /* Ajusta el grosor y el color del borde */
-    border-radius: 10px; /* Opcional: agrega bordes redondeados */
-    padding: 5px; /* Opcional: agrega espacio entre el borde y la imagen */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Opcional: agrega una sombra */
+  border: 5px solid rgb(51, 0, 102); 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
