@@ -50,3 +50,9 @@ color: rgb(51, 0, 102);
   height: auto; /* Mantiene la proporción */
   z-index: 10; /* Asegura que esté encima */
 }
+.imagenrecuadro{
+  border: 5px solid rgb(51, 0, 102); /* Ajusta el grosor y el color del borde */
+    border-radius: 10px; /* Opcional: agrega bordes redondeados */
+    padding: 5px; /* Opcional: agrega espacio entre el borde y la imagen */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Opcional: agrega una sombra */
+}
