@@ -14,6 +14,6 @@ body {
       top: 10%; /* Ajusta la posición de la imagen superpuesta para móviles */
   }
   header {
-    height: 200px; /* Altura del header para dispositivos móviles */
+    height: 250px; /* Altura del header para dispositivos móviles */
 }
 }
