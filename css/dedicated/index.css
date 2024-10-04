@@ -28,10 +28,9 @@ body {
 .contenido article h2 {
   font-size: 40px;
   text-align: center;
-font-family: "Courier new", monospace;
+  font-family: 'Inconsolata', 'Courier New', monospace; /* Priorizar Inconsolata */
 color: rgb(51, 0, 102);
 }
-
 .contenido article div {
   padding: 30px;
 }
