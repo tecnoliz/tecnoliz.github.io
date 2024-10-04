@@ -6,7 +6,6 @@ body {
 }
 
 .logo {
-  background-color: gray;
   text-align: center;
 }
 .logo img{
@@ -47,4 +46,15 @@ color: rgb(51, 0, 102);
   font-size: 18px;
   text-align: center;
   margin: 0;
+}
+.header {
+  height: 300px;
+  background-image: url('https://via.placeholder.com/1500'); /* Ajusta según la ruta de tu imagen */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white; /* O cualquier color que quieras para el texto del header */
 }
