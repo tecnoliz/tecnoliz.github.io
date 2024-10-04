@@ -15,6 +15,11 @@ body {
         height: 30vw; /* Mantiene la altura automática */
         top: 8%; /* Ajustar la posición del logo para móviles */
         width: 300px !important; /* Forzar el ancho */
-
+  }
+        .contenido article h2 {
+          font-size: 40px;
+          text-align: center;
+        font-family: "Courier new", monospace;
+        color: rgb(51, 0, 102);
   }
 }
