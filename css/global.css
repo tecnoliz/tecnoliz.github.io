@@ -12,6 +12,5 @@ body {
     }
   .imagen-encima {
       top: 7%; /* Ajusta la posición de la imagen superpuesta para móviles */
-      width: 200px;
   }
 }
