@@ -4,14 +4,14 @@ body {
 
 @media (max-width: 991px){
   .contenido article{
-      min-width: 100%;
+      min-width: 35%;
     }
     .logo{
       width: 100%;
-      top: 5%; /* Ajusta la posición del logo para móviles */
+      top: 4%; /* Ajusta la posición del logo para móviles */
     }
   .imagen-encima {
-      top: 10%; /* Ajusta la posición de la imagen superpuesta para móviles */
+      top: 7%; /* Ajusta la posición de la imagen superpuesta para móviles */
   }
   header {
     height: 250px; /* Altura del header para dispositivos móviles */
