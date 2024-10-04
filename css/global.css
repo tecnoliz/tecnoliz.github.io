@@ -8,5 +8,12 @@ body {
     }
     .logo img{
       width: 30%;
+      top: 10%; /* Ajusta la posición del logo para móviles */
     }
+    header {
+      height: 250px; /* Altura del header para dispositivos móviles */
+  }
+  .imagen-encima {
+      top: 15%; /* Ajusta la posición de la imagen superpuesta para móviles */
+  }
 }

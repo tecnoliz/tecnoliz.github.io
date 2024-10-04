@@ -44,13 +44,10 @@ color: rgb(51, 0, 102);
 }
 .imagen-encima {
   position: absolute; /* Superpone la imagen */
-  top: 17.5%; /* Ajusta según sea necesario para subir la imagen */
+  top: 21.5%; /* Ajusta según sea necesario para subir la imagen */
   left: 50%; /* Centra horizontalmente */
   transform: translate(-50%, -50%); /* Ajusta la imagen para centrarla */
-  width: 200px; /* Ajusta el tamaño de la imagen */
+  width: 100px; /* Ajusta el tamaño de la imagen */
   height: auto; /* Mantiene la proporción */
   z-index: 10; /* Asegura que esté encima */
-}
-header {
-  height: 400px; /* Aumenta la altura si es necesario */
 }
