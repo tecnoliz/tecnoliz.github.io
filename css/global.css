@@ -4,13 +4,17 @@ body {
 
 @media (max-width: 991px){
   .contenido article{
-      min-width: 35%;
+      min-width: 100%;
     }
     .logo{
-      width: 35%;
-      top: 4%; /* Ajusta la posición del logo para móviles */
+      width: 100%;
+      top: 4%;
     }
   .imagen-encima {
-      top: 7%; /* Ajusta la posición de la imagen superpuesta para móviles */
+    width: 100vw; /* Ancho relativo a la ventana de visualización */
+        height: 30vw; /* Mantiene la altura automática */
+        top: 8%; /* Ajustar la posición del logo para móviles */
+        width: 300px !important; /* Forzar el ancho */
+
   }
 }
