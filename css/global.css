@@ -7,7 +7,7 @@ body {
       min-width: 100%;
     }
     .logo{
-      width: 35%;
+      width: 100%;
       top: 10%; /* Ajusta la posición del logo para móviles */
     }
   .imagen-encima {
