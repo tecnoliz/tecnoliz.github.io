@@ -11,6 +11,9 @@ body {
       top: 10%; /* Ajusta la posición del logo para móviles */
     }
   .imagen-encima {
-      top: 20%; /* Ajusta la posición de la imagen superpuesta para móviles */
+      top: 7%; /* Ajusta la posición de la imagen superpuesta para móviles */
   }
+  header {
+    height: 200px; /* Altura del header para dispositivos móviles */
+}
 }
