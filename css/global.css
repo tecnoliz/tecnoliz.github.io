@@ -6,7 +6,7 @@ body {
   .contenido article{
       min-width: 100%;
     }
-    .logo img{
+    .logo{
       width: 30%;
       top: 10%; /* Ajusta la posición del logo para móviles */
     }
@@ -14,6 +14,6 @@ body {
       height: 250px; /* Altura del header para dispositivos móviles */
   }
   .imagen-encima {
-      top: 15%; /* Ajusta la posición de la imagen superpuesta para móviles */
+      top: 10%; /* Ajusta la posición de la imagen superpuesta para móviles */
   }
 }
