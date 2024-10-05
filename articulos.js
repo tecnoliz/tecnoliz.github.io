@@ -62,3 +62,11 @@ document.getElementById("boton07").style.display = "block";
     document.getElementById("caja8").style.display = "block";
 document.getElementById("boton08").style.display = "block";
 }
+function toggleMenu() {
+  const menu = document.getElementById("menu"); }
+  // Cambiar la visibilidad del menú
+  if (menu.style.display === "none" || menu.style.display === "") {
+      menu.style.display = "block"; // Muestra el menú
+  } else {
+      menu.style.display = "none"; // Oculta el menú
+  }

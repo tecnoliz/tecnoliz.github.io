@@ -7,3 +7,46 @@
     display: none;
     font-size: 26px;
 }
+.menu-button {
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    cursor: pointer; 
+    z-index: 1000;
+}
+
+.line {
+    height: 4px; 
+    width: 30px; 
+    background-color: rgb(51, 0, 102);
+    margin: 5px 0; 
+    transition: background-color 0.3s; 
+}
+
+
+.menu-button:hover .line {
+    background-color: rgba(255, 255, 255, 0.7); 
+}
+
+.menu {
+    position: absolute;
+    top: 50px; 
+    left: 10px;
+    background-color: rgb(51, 0, 102); 
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: none; 
+    z-index: 999; 
+}
+
+.menu a {
+    color: white;
+    text-decoration: none; 
+    display: block; 
+    margin: 5px 0; 
+}
+
+.menu a:hover {
+    text-decoration: underline; 
+}
