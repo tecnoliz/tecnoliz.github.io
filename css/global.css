@@ -23,11 +23,11 @@ body {
         }
 
         .menu a {
-          color: #fdc9fd; 
+          color: #E6E6FA; 
           text-decoration: none; 
           display: block; 
           margin: 150px 0 !important; 
-          font-size: 0px !important;
+          font-size: 75px !important;
           font-family: 'Roboto Mono', monospace; 
           background-color: rgb(255, 255, 255, 0.2);
           padding: 50px 90px !important;
