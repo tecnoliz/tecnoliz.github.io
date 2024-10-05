@@ -62,3 +62,27 @@
 .no-scroll {
     overflow: hidden;
 }
+.ofertas {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF; 
+    color: white; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none; 
+}
+
+#tooltip {
+    color: #000000;
+    text-decoration: none; 
+    display: none; 
+    margin: 20px 0; 
+    font-size: 15px; 
+    font-family: 'Roboto Mono', monospace; 
+    background-color: #ffffff; 
+    padding: 5px 5px; 
+    border-radius: 10px; 
+    box-sizing: border-box; 
+    width: calc(100% - 40px); 
+}

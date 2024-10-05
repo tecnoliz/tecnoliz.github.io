@@ -69,31 +69,37 @@ function toggleMenu(event) {
     if (!menu.classList.contains("open")) {
         menu.style.display = "block"; 
         setTimeout(() => {
-            menu.classList.add("open"); // Expande el menú
-            menuButton.classList.add("open"); // Agrega clase al botón
-            document.body.classList.add("no-scroll"); // Desactiva el scroll del body
-        }, 10); // Pequeño retraso para que la transición sea visible
+            menu.classList.add("open"); 
+            menuButton.classList.add("open"); 
+            document.body.classList.add("no-scroll"); 
+        }, 10); 
     } else {
-        menu.classList.remove("open"); // Contrae el menú
-        menuButton.classList.remove("open"); // Elimina clase del botón
+        menu.classList.remove("open"); 
+        menuButton.classList.remove("open");
         setTimeout(() => {
-            menu.style.display = "none"; // Oculta el menú después de la animación
-            document.body.classList.remove("no-scroll"); // Reactiva el scroll del body
-        }, 500); // Coincide con la duración de la transición
-    }
-    
-    event.stopPropagation(); // Evita que el click cierre el menú de inmediato
-}
-
-document.addEventListener("click", function(event) {
-    const menu = document.getElementById("menu");
-    const menuButton = document.querySelector(".menu-button");
-    if (!menu.contains(event.target) && !menuButton.contains(event.target)) {
-        menu.classList.remove("open"); // Cierra el menú si se hace click fuera
-        menuButton.classList.remove("open"); // Elimina clase del botón
-        setTimeout(() => {
-            menu.style.display = "none"; // Oculta el menú después de la animación
-            document.body.classList.remove("no-scroll"); // Reactiva el scroll del body
+            menu.style.display = "none"; 
+            document.body.classList.remove("no-scroll"); 
         }, 500); 
     }
-});
+  }
+    
+    event.stopPropagation();
+
+function toggleTooltip(event) {
+  event.preventDefault(); 
+  const tooltip = document.getElementById("tooltip");
+  const isVisible = tooltip.style.display === "block"; 
+
+  tooltip.style.display = isVisible ? "none" : "block";
+  if (!isVisible) {
+      document.addEventListener('click', function closeTooltip(event) {
+          const isClickInside = tooltip.contains(event.target) || event.target.classList.contains('ofertas');
+
+          // Cerrar el bocadillo si el clic está fuera
+          if (!isClickInside) {
+              tooltip.style.display = "none";
+              document.removeEventListener('click', closeTooltip); 
+          }
+      });
+  }
+}

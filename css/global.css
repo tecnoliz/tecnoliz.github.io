@@ -41,6 +41,19 @@ body {
         line-height: 1.5; /* Mantiene el espacio entre líneas */
         color: #000; /* Color del texto */
       }
+      #tooltip {
+        color: #000000;
+        text-decoration: none; 
+        display: none; 
+        margin: 10px 0; 
+        font-size: 36px !important; 
+        font-family: 'Roboto Mono', monospace; 
+        background-color: #ffffff; 
+        padding: 20px 30px; 
+        border-radius: 10px; 
+        box-sizing: border-box; 
+        width: calc(100% - 40px); 
+    }
       }
     
     
