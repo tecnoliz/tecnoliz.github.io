@@ -39,13 +39,13 @@
     display: none; 
 }
 .menu a {
-    color: #fdc9fd;
+    color: #E6E6FA;
     text-decoration: none; 
     display: block; 
     margin: 20px 0; 
     font-size: 32px; 
     font-family: 'Roboto Mono', monospace; 
-    background-color: #E6E6FA; 
+    background-color: rgb(255, 255, 255, 0.2); 
     padding: 15px 20px; 
     border-radius: 10px; 
     transition: background-color 0.3s; 
