@@ -16,8 +16,8 @@
 }
 
 .line {
-    height: 9px; 
-    width: 60px; 
+    height: 20px; 
+    width: 130px; 
     background-color: rgb(51, 0, 102);
     margin: 5px 0; 
     transition: background-color 0.3s; 
@@ -27,26 +27,37 @@
 .menu-button:hover .line {
     background-color: rgba(255, 255, 255, 0.7); 
 }
-
 .menu {
-    position: absolute;
-    top: 50px; 
-    left: 10px;
-    background-color: rgb(51, 0, 102); 
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
-    display: none; 
+    position: fixed;
+    top: 305px; 
+    left: 0;
+    background-color:rgb(51, 0, 102); 
+    padding: 15px;
+    border-radius: 0; 
     z-index: 999; 
+    text-align: center;
+    width: 0; 
+    height: calc(100vh - 90px); 
+    font-size: 23px;
+    overflow: hidden; 
+    transition: width 0.5s ease; 
+    display: none; 
 }
-
 .menu a {
-    color: white;
+    color: rgb(60, 139, 203);
     text-decoration: none; 
     display: block; 
-    margin: 5px 0; 
+    margin: 35px 0; 
+    font-size: 35px;
+    font-family: 'Roboto Mono', monospace;
 }
-
 .menu a:hover {
     text-decoration: underline; 
+}
+.menu.open {
+    width: 100%; 
+    display: block; 
+}
+.no-scroll {
+    overflow: hidden;
 }

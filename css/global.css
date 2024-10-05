@@ -24,6 +24,14 @@ body {
         .caja {
           font-size: 16px; 
           line-height: 1.5; 
+        }
+        .menu a {
+          font-size: 70px !important;
+          margin: 140px 0;  /* Mayor espacio entre los enlaces */
+          padding: 140px 0; /* Más padding para los enlaces en móviles */
+          font-family: 'Roboto Mono', monospace;
+        
       }
       }
+    
     

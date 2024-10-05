@@ -64,17 +64,32 @@ document.getElementById("boton08").style.display = "block";
 }
 function toggleMenu(event) {
   const menu = document.getElementById("menu");
-  if (menu.style.display === "none" || menu.style.display === "") {
+  
+  if (!menu.classList.contains("open")) {
       menu.style.display = "block"; 
-      event.stopPropagation(); 
+      setTimeout(() => {
+          menu.classList.add("open");
+          document.body.classList.add("no-scroll");
+      }, 10); 
   } else {
-      menu.style.display = "none"; 
+      menu.classList.remove("open"); 
+      setTimeout(() => {
+          menu.style.display = "none"; 
+          document.body.classList.remove("no-scroll"); 
+      }, 500); 
   }
+  
+  event.stopPropagation(); 
 }
+
 document.addEventListener("click", function(event) {
   const menu = document.getElementById("menu");
   const menuButton = document.querySelector(".menu-button");
   if (!menu.contains(event.target) && !menuButton.contains(event.target)) {
-      menu.style.display = "none"; // Oculta el menú
+      menu.classList.remove("open"); 
+      setTimeout(() => {
+          menu.style.display = "none"; 
+          document.body.classList.remove("no-scroll"); 
+      }, 500); 
   }
 });
