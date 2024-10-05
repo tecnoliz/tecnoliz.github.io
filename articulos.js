@@ -64,17 +64,13 @@ document.getElementById("boton08").style.display = "block";
 }
 function toggleMenu(event) {
   const menu = document.getElementById("menu");
-  // Cambiar la visibilidad del menú
   if (menu.style.display === "none" || menu.style.display === "") {
-      menu.style.display = "block"; // Muestra el menú
-      // Evita que el clic en el botón cierre el menú
+      menu.style.display = "block"; 
       event.stopPropagation(); 
   } else {
-      menu.style.display = "none"; // Oculta el menú
+      menu.style.display = "none"; 
   }
 }
-
-// Cierra el menú al hacer clic fuera de él
 document.addEventListener("click", function(event) {
   const menu = document.getElementById("menu");
   const menuButton = document.querySelector(".menu-button");
