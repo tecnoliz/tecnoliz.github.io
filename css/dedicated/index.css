@@ -42,12 +42,11 @@ color: rgb(51, 0, 102);
   margin: 0;
 }
 .imagen-encima {
-  position: absolute; /* Superpone la imagen */
-  top: 21.5%; /* Ajusta según sea necesario para subir la imagen */
-  left: 50%; /* Centra horizontalmente */
-  transform: translate(-50%, -50%); /* Ajusta la imagen para centrarla */
-  width: 100%; /* Ajusta el tamaño de la imagen */
-  z-index: 10%; /* Asegura que esté encima */
+  position: absolute; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  width: 100%; 
+  z-index: 10%;
 }
 .imagenrecuadro{
   border: 5px solid rgb(51, 0, 102); 

@@ -11,10 +11,10 @@ body {
       top: 4%;
     }
   .imagen-encima {
-    width: 100vw; /* Ancho relativo a la ventana de visualización */
-        height: 30vw; /* Mantiene la altura automática */
-        top: 8%; /* Ajustar la posición del logo para móviles */
-        width: 300px !important; /* Forzar el ancho */
+    width: 100vw;
+        height: 30vw;
+        top: 8%; 
+        width: 300px !important; 
   }
         .imagenrecuadro{
           border: 5px solid rgb(51, 0, 102); 
