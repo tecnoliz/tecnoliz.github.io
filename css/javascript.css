@@ -22,11 +22,6 @@
     margin: 5px 0; 
     transition: background-color 0.3s; 
 }
-
-
-.menu-button:hover .line {
-    background-color: rgba(255, 255, 255, 0.7); 
-}
 .menu {
     position: fixed;
     top: 305px; 
@@ -44,12 +39,18 @@
     display: none; 
 }
 .menu a {
-    color: rgb(60, 139, 203);
+    color: rgb(60, 139, 203); 
     text-decoration: none; 
     display: block; 
-    margin: 35px 0; 
-    font-size: 35px;
-    font-family: 'Roboto Mono', monospace;
+    margin: 20px 0; 
+    font-size: 32px; 
+    font-family: 'Roboto Mono', monospace; 
+    background-color: rgba(255, 255, 255, 0.2); 
+    padding: 15px 20px; 
+    border-radius: 10px; 
+    transition: background-color 0.3s; 
+    box-sizing: border-box; 
+    width: calc(100% - 40px); 
 }
 .menu a:hover {
     text-decoration: underline; 

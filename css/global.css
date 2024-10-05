@@ -26,11 +26,18 @@ body {
           line-height: 1.5; 
         }
         .menu a {
-          font-size: 70px !important;
-          margin: 140px 0;  /* Mayor espacio entre los enlaces */
-          padding: 140px 0; /* Más padding para los enlaces en móviles */
-          font-family: 'Roboto Mono', monospace;
-        
+          color: rgb(60, 139, 203); 
+          text-decoration: none; 
+          display: block; 
+          margin: 150px 0 !important; 
+          font-size: 90px !important;
+          font-family: 'Roboto Mono', monospace; 
+          background-color: rgba(255, 255, 255, 0.2);
+          padding: 50px 90px !important;
+          border-radius: 100px; 
+          transition: background-color 0.3s;
+          box-sizing: border-box; 
+          width: calc(100% - 40px); 
       }
       }
     

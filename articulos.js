@@ -63,33 +63,37 @@ document.getElementById("boton07").style.display = "block";
 document.getElementById("boton08").style.display = "block";
 }
 function toggleMenu(event) {
-  const menu = document.getElementById("menu");
-  
-  if (!menu.classList.contains("open")) {
-      menu.style.display = "block"; 
-      setTimeout(() => {
-          menu.classList.add("open");
-          document.body.classList.add("no-scroll");
-      }, 10); 
-  } else {
-      menu.classList.remove("open"); 
-      setTimeout(() => {
-          menu.style.display = "none"; 
-          document.body.classList.remove("no-scroll"); 
-      }, 500); 
-  }
-  
-  event.stopPropagation(); 
+    const menu = document.getElementById("menu");
+    const menuButton = document.querySelector(".menu-button");
+
+    if (!menu.classList.contains("open")) {
+        menu.style.display = "block"; 
+        setTimeout(() => {
+            menu.classList.add("open"); // Expande el menú
+            menuButton.classList.add("open"); // Agrega clase al botón
+            document.body.classList.add("no-scroll"); // Desactiva el scroll del body
+        }, 10); // Pequeño retraso para que la transición sea visible
+    } else {
+        menu.classList.remove("open"); // Contrae el menú
+        menuButton.classList.remove("open"); // Elimina clase del botón
+        setTimeout(() => {
+            menu.style.display = "none"; // Oculta el menú después de la animación
+            document.body.classList.remove("no-scroll"); // Reactiva el scroll del body
+        }, 500); // Coincide con la duración de la transición
+    }
+    
+    event.stopPropagation(); // Evita que el click cierre el menú de inmediato
 }
 
 document.addEventListener("click", function(event) {
-  const menu = document.getElementById("menu");
-  const menuButton = document.querySelector(".menu-button");
-  if (!menu.contains(event.target) && !menuButton.contains(event.target)) {
-      menu.classList.remove("open"); 
-      setTimeout(() => {
-          menu.style.display = "none"; 
-          document.body.classList.remove("no-scroll"); 
-      }, 500); 
-  }
+    const menu = document.getElementById("menu");
+    const menuButton = document.querySelector(".menu-button");
+    if (!menu.contains(event.target) && !menuButton.contains(event.target)) {
+        menu.classList.remove("open"); // Cierra el menú si se hace click fuera
+        menuButton.classList.remove("open"); // Elimina clase del botón
+        setTimeout(() => {
+            menu.style.display = "none"; // Oculta el menú después de la animación
+            document.body.classList.remove("no-scroll"); // Reactiva el scroll del body
+        }, 500); 
+    }
 });
