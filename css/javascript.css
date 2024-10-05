@@ -16,8 +16,8 @@
 }
 
 .line {
-    height: 4px; 
-    width: 30px; 
+    height: 9px; 
+    width: 60px; 
     background-color: rgb(51, 0, 102);
     margin: 5px 0; 
     transition: background-color 0.3s; 
