@@ -32,7 +32,7 @@ body {
           margin: 150px 0 !important; 
           font-size: 90px !important;
           font-family: 'Roboto Mono', monospace; 
-          background-color: #E6E6FA;
+          background-color: rgb(255, 255, 255, 0.2);
           padding: 50px 90px !important;
           border-radius: 100px; 
           transition: background-color 0.3s;
