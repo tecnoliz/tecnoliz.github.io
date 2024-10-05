@@ -4,8 +4,8 @@ body {
 
 @media (max-width: 991px){
   .contenido article{
-      min-width: 100%;
-    }
+    min-width: 100%;
+  }
     .logo{
       width: 100%;
       top: 4%;
@@ -21,16 +21,13 @@ body {
             border-radius: 10px; 
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
         }
-        .caja {
-          font-size: 16px; 
-          line-height: 1.5; 
-        }
+
         .menu a {
           color: #fdc9fd; 
           text-decoration: none; 
           display: block; 
           margin: 150px 0 !important; 
-          font-size: 50px !important;
+          font-size: 0px !important;
           font-family: 'Roboto Mono', monospace; 
           background-color: rgb(255, 255, 255, 0.2);
           padding: 50px 90px !important;
@@ -38,6 +35,11 @@ body {
           transition: background-color 0.3s;
           box-sizing: border-box; 
           width: calc(100% - 40px); 
+      }
+      .texto-uniforme {
+        font-size: 35px; /* Ajusta el tamaño de la fuente según lo que necesites */
+        line-height: 1.5; /* Mantiene el espacio entre líneas */
+        color: #000; /* Color del texto */
       }
       }
     

@@ -55,3 +55,8 @@ color: rgb(51, 0, 102);
     border-radius: 10px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+.texto-uniforme {
+  font-size: 25px; /* Ajusta el tamaño de la fuente según lo que necesites */
+  line-height: 1.5; /* Mantiene el espacio entre líneas */
+  color: #000; /* Color del texto */
+}

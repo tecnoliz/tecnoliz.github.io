@@ -42,11 +42,14 @@ h2 {
 
 .menu-item h3 {
     margin: 0;
+    font-size: 15px;
 }
 
 .menu-item p {
     margin: 5px 0;
     font-size: 0.9em;
+    text-align: center;
+    
 }
 
 .menu-item span {
