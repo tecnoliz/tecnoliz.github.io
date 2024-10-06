@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Código QR</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-qrcode/0.18.0/jquery.qrcode.min.js"></script>
+    <style>
+        #qrcode {
+            margin: 20px;
+            width: 200px; /* Ajusta el tamaño del código QR */
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Generador de Código QR</h1>
+    <div id="qrcode"></div>
+
+    <script>
+        // URL de tu página
+        var url = "https://tecnoliz.github.io";
+
+        // Generar el código QR
+        $("#qrcode").qrcode(url);
+    </script>
+</body>
+</html>
