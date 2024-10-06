@@ -3,6 +3,9 @@ body {
 }
 
 @media (max-width: 991px){
+#caja6{
+font-size: 30px;
+}
   .contenido article{
     min-width: 100%;
   }
