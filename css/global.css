@@ -62,6 +62,16 @@ font-size: 30px;
   transform: none !important;
   line-height: normal !important;
 }
+#caja1 span, #caja2 span, #caja3 span, #caja4 span, #caja5 span, #caja6 span, #caja7 span, #caja8 span{
+    font-size: 44px !important; /* Ajusta según sea necesario */
+  transform: none !important;
+  line-height: normal !important;
+}
+#caja1 h6, #caja2 h6, #caja3 h6, #caja4 h6, #caja5 h6, #caja6 h6, #caja7 h6, #caja8 h6{
+    font-size: 44px !important; /* Ajusta según sea necesario */
+  transform: none !important;
+  line-height: normal !important;
+}
       }
     
     
