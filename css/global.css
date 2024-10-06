@@ -57,6 +57,11 @@ font-size: 30px;
         box-sizing: border-box; 
         width: calc(100% - 40px); 
     }
+#caja3 span, #caja3 h6 {
+  font-size: 44px !important; /* Ajusta según sea necesario */
+  transform: none !important;
+  line-height: normal !important;
+}
       }
     
     
