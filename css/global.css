@@ -57,11 +57,6 @@ font-size: 30px;
         box-sizing: border-box; 
         width: calc(100% - 40px); 
     }
-#caja3 span, #caja3 h6 {
-  font-size: 44px !important; /* Ajusta según sea necesario */
-  transform: none !important;
-  line-height: normal !important;
-}
 #caja1 span, #caja2 span, #caja3 span, #caja4 span, #caja5 span, #caja6 span, #caja7 span, #caja8 span{
     font-size: 44px !important; /* Ajusta según sea necesario */
   transform: none !important;
