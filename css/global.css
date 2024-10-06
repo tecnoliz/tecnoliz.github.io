@@ -67,6 +67,12 @@ font-size: 30px;
   transform: none !important;
   line-height: normal !important;
 }
+.contenido article h2 {
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+color: rgb(51, 0, 102);
+}
       }
     
     
