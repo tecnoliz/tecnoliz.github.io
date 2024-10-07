@@ -30,7 +30,7 @@ body {
   text-align: center;
   font-family: 'Roboto Mono', monospace;
   color: rgb(51, 0, 102);
-  text-decoration: underline !important;
+  text-shadow: #5E2962;
 }
 .contenido article div {
   padding: 30px;
