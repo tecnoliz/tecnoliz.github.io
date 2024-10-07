@@ -41,11 +41,8 @@ body {
   font-size: 18px;
   text-align: center;
   margin: 0;
- text-shadow: 
- 5px 5px 0px rgba(83,155,194,0.5);
- font-size: 80px;
- font-family: 'Sancreek', cursive;
-}
+ text-shadow: 5px 5px 0px rgba(83,155,194,0.5);
+ }
 .imagen-encima {
   top: 150px;
   position: absolute; 
