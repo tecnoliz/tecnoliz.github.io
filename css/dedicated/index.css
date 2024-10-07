@@ -30,7 +30,8 @@ body {
   text-align: center;
   font-family: 'Roboto Mono', monospace;
   color: rgb(51, 0, 102);
-  text-shadow: #5E2962;
+  text-shadow: 
+ 5px 5px 0px rgba(83,155,194,0.5);
 }
 .contenido article div {
   padding: 30px;
@@ -41,7 +42,6 @@ body {
   font-size: 18px;
   text-align: center;
   margin: 0;
- text-shadow: 5px 5px 0px rgba(83,155,194,0.5);
  }
 .imagen-encima {
   top: 150px;
